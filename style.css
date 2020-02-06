@@ -1,0 +1,439 @@
+body {
+    font-family: "Montserrat", serif;
+}
+
+/* -------- Хэдер и 1 раздел We Design... -------- */
+.laptop {
+    background: url("pic/background-laptop.jpg") bottom left 0 no-repeat, linear-gradient(to top, #aeb7be, #d7dadf);
+    padding: 0 98px;
+}
+
+/* -------- Хэдер -------- */
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 700;
+    max-width: 1366px;
+    margin: auto;
+}
+
+header div {
+    margin: 30px 0 0 60px;
+}
+
+header div:first-child {
+    margin-left: 0;
+}
+
+header div:nth-child(2) {
+    margin-left: auto;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+header a:hover {
+    color: #10c9c3;
+}
+
+/* -------- 1 раздеол We design -------- */
+.laptop section {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1366px;
+    margin: auto;
+}
+
+.laptop section div {
+    padding-left: 52%;
+
+}
+
+.laptop .heading {
+    font-size: 38px;
+    font-weight: 700;
+    margin-top: 130px;
+}
+
+.laptop .description {
+    font: 18px "Nunito Sans", serif;
+    color: #404040;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+
+.laptop .pressbutton {
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+
+.laptop input {
+    padding: 15px 40px;
+    color: #ffffff;
+    background-color: #10c9c3;
+    border: none;
+    font-size: 12px;
+}
+
+/* -------- Раздел About -------- */
+.about {
+    text-align: center;
+    vertical-align: middle;
+    padding: 100px 98px;
+    max-width: 1366px;
+    margin: auto;
+}
+
+.about h1 {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 30px;
+    padding: 0 25%;
+}
+
+.about p {
+    font: 18px "Nunito Sans", sans-serif;
+    padding: 0 25%;
+    color: #787878;
+}
+
+/* -------- Раздел skills -------- */
+.skillsBack {
+    background-color: #f8f9f9;
+}
+
+.skills {
+    display: flex;
+    font-size: 18px;
+    max-width: 1366px;
+    margin: auto;
+}
+
+.skillsBlock {
+    width: 50%;
+    vertical-align: middle;
+    padding: 120px 0;
+}
+
+.skillsBlock:nth-child(2) {
+    background-image: url("pic/skills.jpg");
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+
+.skills dt {
+    font-size: 12px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.skillsInterest dd {
+    margin: 0;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    background-color: #e8e8e8;
+}
+
+.skillsLevel {
+    text-align: center;
+    color: #ffffff;
+    background-color: #10c9c3;
+    height: 4px;
+}
+
+/* -------- Раздел результаты -------- */
+.resultsBack {
+    background-color: #10c9c3;
+}
+
+.results {
+    padding: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    color: white;
+    align-items: center;
+    max-width: 1366px;
+    margin: auto;
+}
+
+.resultsObject {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 0;
+}
+
+.results img {
+    filter: invert();
+    width: 50px;
+    height: auto;
+}
+
+.resultsObject div:nth-child(2n) {
+    padding-left: 15px;
+}
+
+.results .number {
+    font-size: 18px;
+}
+
+/* -------- Раздел с работой-------- */
+.work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1366px;
+    margin: auto;
+}
+
+.workImg {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: 1s ease-out;
+}
+
+.eye {
+    position: absolute;
+    width: 5%;
+    opacity: 0;
+    transition: opacity 0.3s ease-out;
+}
+
+.work div {
+    width: 25%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.work div:hover .workImg {
+    filter: brightness(0.3);
+    transition: 0.3s ease-out;
+}
+
+.work div:hover .eye {
+    opacity: 1;
+}
+
+
+.work a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* -------- Раздел LOAD MORE WORK-------- */
+.grow {
+    height: 50px;
+    color: #8e8e8e;
+    background-color: #f5f5f5;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 12px;
+}
+
+.grow div {
+    max-width: 1366px;
+    margin: auto;
+}
+
+.grow a {
+    text-decoration: none;
+    color: #8e8e8e;
+}
+
+.grow a:hover {
+    color: #10c9c3;
+}
+
+/* -------- Раздел с видео-------- */
+.video {
+    text-align: center;
+    max-width: 1366px;
+    margin: auto;
+}
+
+.video h1 {
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.video p {
+    color: #787878;
+    font: 16px "Nunito Sans", sans-serif;
+    margin: 0 25%;
+}
+
+.video iframe {
+    padding-top: 20px;
+}
+
+/* -------- Раздел с activity-------- */
+.activityBack {
+    background-color: #f5f5f5;
+}
+
+.activity {
+    max-width: 1366px;
+    margin: auto;
+    padding: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-around;
+}
+
+.activityBlock {
+    box-sizing: border-box;
+    width: 25%;
+    margin-bottom: 40px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+}
+
+.activity img {
+    width: 50px;
+    height: 50px;
+}
+
+.activity h5 {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+}
+
+.activity p {
+    font: 16px "Nunito Sans", sans-serif;
+    color: #787878;
+}
+
+/* -------- Раздел с цитатами-------- */
+.quotes {
+    background-color: #10c9c3;
+    color: white;
+    text-align: center;
+    padding: 180px 25% 1px 25%;
+
+}
+
+.quote {
+    font-size: 24px;
+    padding-bottom: 40px;
+}
+
+.author {
+    font-size: 12px;
+    padding-bottom: 100px;
+}
+
+.switch {
+    padding-bottom: 50px;
+}
+
+/* -------- Раздел с партнерами-------- */
+.partners {
+    padding: 65px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1366px;
+    margin: auto;
+}
+
+.partners img {
+    display: block;
+    width: 100%;
+    height: auto;
+    filter: grayscale(100%);
+    transition: transform 1s;
+}
+
+.partners img:hover {
+    transition: transform 1s, filter 1s;
+    filter: none;
+    transform: rotate(-10deg);
+}
+
+/* -------- Раздел с фидбэком-------- */
+.feedback {
+    background-color: #f5f5f5;
+    padding: 100px 350px;
+    text-align: center;
+}
+
+.feedback h1 {
+    font-size: 30px;
+}
+
+.feedback p, form {
+    font: 16px "Nunito Sans", serif;
+}
+
+.firstField {
+    width: 45%;
+    height: 50px;
+    margin-bottom: 25px;
+    border: none;
+    padding-left: 10px;
+}
+
+.firstField:first-child {
+    margin-right: 5%;
+}
+
+.secondField {
+    min-width: 100%;
+    height: 50px;
+    margin-bottom: 25px;
+    border: none;
+    padding-left: 10px;
+}
+
+.feedback textarea {
+    border: none;
+    margin-bottom: 25px;
+    min-width: 100%;
+    height: 200px;
+    padding-left: 10px;
+    padding-top: 10px;
+    resize: none;
+}
+
+.feedback input[type=submit] {
+    padding: 15px 40px;
+    color: #ffffff;
+    background-color: #10c9c3;
+    border: none;
+}
+
+/* -------- Футер-------- */
+footer {
+    background-color: black;
+}
+
+.footer {
+    max-width: 1366px;
+    margin: auto;
+    padding: 70px 0;
+    color: #bcbcbc;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font: 16px "Nunito Sans", sans-serif;
+}
+
+footer a {
+    text-decoration: none;
+    color: #bcbcbc;
+}
